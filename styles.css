@@ -1,0 +1,256 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F6F4F1;
+}
+
+#nav_bar {
+    position: sticky;
+    background-color: #ffff;
+    height: 70px;
+    width: auto;
+
+}
+
+.container1 {
+    position: absolute;
+    scale: 15%;
+    left: -208px;
+    top: -215px;
+}
+
+.nav_elements_tools {
+    font-family: 'DM Sans'; 
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    left: 500px;
+    top: 20px; 
+}
+
+.ele_1 {
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #B7D9A4;
+    text-decoration-thickness: 4px;
+}
+.ele_1:hover {
+    color: #000;
+
+}
+
+.features {
+    position: absolute;
+    left: 600px;
+    top: 20px; 
+}
+
+.ele_2 {
+    text-decoration: none;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ele_2:hover {
+    color: #000;
+}
+
+.dropdown-ele_2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1
+}
+
+.dropdown-ele_2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-ele_2 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.features:hover .dropdown-ele_2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.features:hover .ele_2 {
+    background-color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 2px;
+}
+
+.about {
+    position: absolute;
+    left: 728px;
+    top: 20px; 
+}
+
+.ele_3 {
+    text-decoration: none;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ele_3:hover {
+    color: #000;
+}
+.services {
+    position: absolute;
+    left: 833px;
+    top: 20px; 
+}
+
+.ele_4 {
+    text-decoration: none;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ele_4:hover {
+    color: #000;
+}
+.contacts {
+    position: absolute;
+    left: 955px;
+    top: 20px; 
+}
+
+.ele_5 {
+    text-decoration: none;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ele_5:hover {
+    color: #000;
+
+}
+
+.nav_elements_sider {
+    font-family: 'DM Sans'; 
+    cursor: pointer;
+}
+
+.gopro {
+    position: absolute;
+    right: 250px;
+    top: 20px; 
+    
+}
+
+.ele_6 {
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ele_6:hover {
+    color: #dbba00;
+}
+
+#sign_in {
+    color: #253439;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+#sign_in:hover {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.681);
+}
+#sign_up {
+    color: #ffffff;
+    background-color: #253439;
+    border-radius: 12px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#sign_up:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.681);
+}
+
+.signin {
+    position: absolute;
+    right: 125px;
+    top: 21px; 
+    z-index: 1;
+}
+
+.signup {
+    position: absolute;
+    right: 30px;
+    top: 17px; 
+}
+
+@media (max-width: 1200px) {
+    .gopro, .services, .contacts {
+        display: none;
+    }
+    .nav_elements_tools {
+        position: absolute;
+        left: -140px;
+    }
+    .nav_elements_sider {
+        position: absolute;
+        right: 10px;
+    }
+}
+@media (max-width: 1440px) {
+    .gopro, .signin {
+        display: none;
+    }
+
+}
+@media (max-width: 840px) {
+
+    .nav_elements_tools {
+        position: absolute;
+        left: -400px;
+    }
+    .nav_elements_sider {
+        position: absolute;
+        right: 2px;
+    }
+
+}
+@media (max-width: 520px) {
+
+    .nav_elements_tools {
+        position: absolute;
+        left: -400px;
+    }
+    .nav_elements_sider {
+display: none;
+    }
+
+}
