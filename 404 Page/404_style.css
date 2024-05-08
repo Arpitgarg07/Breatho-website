@@ -3,12 +3,22 @@
     padding:0;
 }
 
-img {
+.img_1 {
     position: fixed;
     height: 870px;
 
 }
 
+.img_2 {
+    display: none;
+}
+.img_3 {
+    display: inline;
+    margin-top: -220px;
+    margin-left: 472px;
+    scale: 13%;
+    position: fixed;
+}
 
 .gamja-flower-regular {
     font-family: "Gamja Flower", sans-serif;
@@ -37,9 +47,20 @@ button:hover {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.681);
 }
 
-/* .but_1:hover {
+.but_1:hover {
+    .img_2 {
+        display: inline;
+        margin-top: -220px;
+        margin-left: 472px;
+        scale: 13%;
+        position: fixed;
+    }
+    .img_3 {
+        display: none;
 
-} */
+    }
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.681);
+}
 
 
 /* 
