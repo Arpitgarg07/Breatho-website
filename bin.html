@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    .mySlides {
+      display: none;
+    }
+
+    .w3-content {
+      position: relative;
+      max-width: 500px;
+      overflow: hidden; /* Hide overflowing images */
+    }
+
+    /* Style for radio buttons */
+    .radio-btn {
+      display: none; /* Hide the actual radio buttons */
+    }
+
+    /* Style for custom radio button */
+    .custom-radio {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #ccc;
+      border-radius: 50%;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    /* Change color of custom radio button when checked */
+    .radio-btn:checked + .custom-radio {
+      background-color: #000000;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="w3-content w3-section">
+    <img class="mySlides" src="images/card/card1.png" style="width:100%">
+    <img class="mySlides" src="images/card/card2.png" style="width:100%">
+    <img class="mySlides" src="images/card/card3.png" style="width:100%">
+    <img class="mySlides" src="images/card/card4.png" style="width:100%">
+  </div>
+  <div style="text-align:center">
+    <!-- Customized radio buttons -->
+    <label for="radio1" class="custom-radio"></label>
+    <input type="radio" name="radio-btn" id="radio1" class="radio-btn" >
+    
+    <label for="radio2" class="custom-radio"></label>
+    <input type="radio" name="radio-btn" id="radio2" class="radio-btn">
+    
+    <label for="radio3" class="custom-radio"></label>
+    <input type="radio" name="radio-btn" id="radio3" class="radio-btn">
+    
+    <label for="radio4" class="custom-radio"></label>
+    <input type="radio" name="radio-btn" id="radio4" class="radio-btn">
+  </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    let counter = 1;
+    setInterval(function () {
+      let slideBtn = document.getElementById("radio" + counter);
+      //   Checks the checkbox
+      slideBtn.checked = true;
+      counter++;
+      if (counter > 4) {
+        counter = 1;
+      }
+    }, 2000);
+
+  </script>
+
+</body>
+
+</html>
