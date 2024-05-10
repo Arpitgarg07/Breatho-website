@@ -221,48 +221,6 @@ body {
     top: 17px; 
 }
 
-@media (max-width: 1200px) {
-    .gopro, .services, .contacts, .slider_radio {
-        display: none;
-    }
-    .nav_elements_tools {
-        position: absolute;
-        left: -140px;
-    }
-    .nav_elements_sider {
-        position: absolute;
-        right: 10px;
-    }
-}
-@media (max-width: 1440px) {
-    .gopro, .signin {
-        display: none;
-    }
-
-}
-@media (max-width: 840px) {
-
-    .nav_elements_tools {
-        position: absolute;
-        left: -400px;
-    }
-    .nav_elements_sider {
-        position: absolute;
-        right: 2px;
-    }
-
-}
-@media (max-width: 520px) {
-
-    .nav_elements_tools {
-        position: absolute;
-        left: -400px;
-    }
-    .nav_elements_sider {
-display: none;
-    }
-
-}
 
 /** nav end  */
 
@@ -347,3 +305,45 @@ display: none;
       transform: translateX(-100%); /* Slide to the left */
     }
   }
+@media (max-width: 1200px) {
+    .gopro, .services, .contacts, .slider_radio {
+        display: none;
+    }
+    .nav_elements_tools {
+        position: absolute;
+        left: -140px;
+    }
+    .nav_elements_sider {
+        position: absolute;
+        right: 10px;
+    }
+}
+@media (max-width: 1440px) {
+    .gopro, .signin {
+        display: none;
+    }
+
+}
+@media (max-width: 840px) {
+
+    .nav_elements_tools {
+        position: absolute;
+        left: -400px;
+    }
+    .nav_elements_sider {
+        position: absolute;
+        right: 2px;
+    }
+
+}
+@media (max-width: 520px) {
+
+    .nav_elements_tools {
+        position: absolute;
+        left: -400px;
+    }
+    .nav_elements_sider {
+display: none;
+    }
+
+}
