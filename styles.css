@@ -251,6 +251,7 @@ body {
     z-index: 0;
 }
 .head_txt2 {
+    cursor: default;
     position: absolute;
     color: #606060;
     text-align: left;
@@ -261,17 +262,6 @@ body {
     font-weight: bold;
     
 }
-
-.radio-btn {
-    width: 20px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: #d6d6d6;
-  }
-
-  .radio-btn.active {
-    background-color: #fe6a5c;
-  }
 
 .un_1 {
     text-decoration: none; /* Remove default underline */
@@ -297,6 +287,7 @@ body {
     width: 330px;
     left: 280px;
     top: 120px;
+    z-index: 9;
     transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition effect */
 }
 
@@ -380,6 +371,7 @@ body {
 
   #card1,
   #card2 {
+    cursor: default;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition effect */
   }
   
@@ -436,6 +428,7 @@ body {
 }
 
 .box_g2_txt1 {
+    cursor: default;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     position: relative;
