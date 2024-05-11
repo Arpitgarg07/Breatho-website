@@ -9,8 +9,6 @@ body {
 
 #nav_bar {
     position: sticky;
-    align-items: center;
-    justify-content: center;
     background-color: #ffff;
     height: 70px;
     width: auto;
@@ -27,8 +25,6 @@ body {
 
 .nav_elements_tools {
     position: absolute;
-    text-align: center;
-    justify-content: center;
     left: 00px;
     right: 00px;
     font-family: 'DM Sans'; 
@@ -238,6 +234,48 @@ body {
     top: 17px; 
 }
 
+@media (max-width: 1200px) {
+  .gopro, .services, .contacts {
+      display: none;
+  }
+  .nav_elements_tools {
+      position: absolute;
+      left: -140px;
+  }
+  .nav_elements_sider {
+      position: absolute;
+      right: 10px;
+  }
+}
+@media (max-width: 1440px) {
+  .gopro, .signin {
+      display: none;
+  }
+
+}
+@media (max-width: 840px) {
+
+  .nav_elements_tools {
+      position: absolute;
+      left: -400px;
+  }
+  .nav_elements_sider {
+      position: absolute;
+      right: 2px;
+  }
+
+}
+@media (max-width: 520px) {
+
+  .nav_elements_tools {
+      position: absolute;
+      left: -400px;
+  }
+  .nav_elements_sider {
+display: none;
+  }
+
+}
 
 /** nav end  */
 
