@@ -1,98 +1,120 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>W3.CSS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automatic Image Slider</title>
   <style>
-    .mySlides {
-      display: none;
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #fbfbfb;
     }
 
-    .w3-content {
-      position: relative;
-      max-width: 500px;
-      overflow: hidden; /* Hide overflowing images */
+    h4 {
+      font-size: 26px;
+      font-weight: 600;
+      color: #adadad;
+      margin-bottom: 30px;
     }
 
-    /* Style for radio buttons */
-    .radio-btn {
-      display: none; /* Hide the actual radio buttons */
+    ul {
+      display: flex;
+      list-style: none;
+      transition: all 1s ease;
     }
 
-    /* Style for custom radio button */
-    .custom-radio {
-      display: inline-block;
+    .slider {
+      width: 550px;
+      height: 350px;
+      overflow: hidden;
+      border-radius: 3px;
+      box-shadow: 3px 20px 15px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    img {
+      width: 550px;
+      height: 350px;
+      border-radius: 3px;
+    }
+
+    .pagination-dots {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 40px;
+    }
+
+    .dot {
       width: 20px;
-      height: 20px;
-      background-color: #ccc;
-      border-radius: 50%;
-      margin-right: 10px;
-      cursor: pointer;
+      height: 6px;
+      border-radius: 5px;
+      background-color: #d6d6d6;
     }
 
-    /* Change color of custom radio button when checked */
-    .radio-btn:checked + .custom-radio {
-      background-color: #000000;
+    .dot.active {
+      background-color: #fe6a5c;
     }
-
   </style>
 </head>
-
 <body>
+  <h4>Automatic Image Slider</h4>
 
-  <div class="w3-content w3-section">
-    <img class="mySlides" src="images/card/card1.png" style="width:100%">
-    <img class="mySlides" src="images/card/card2.png" style="width:100%">
-    <img class="mySlides" src="images/card/card3.png" style="width:100%">
-    <img class="mySlides" src="images/card/card4.png" style="width:100%">
+  <div class="slider">
+    <ul>
+      <li><img src="/img1.jpg" alt="image one" /></li>
+      <li><img src="/img2.jpg" alt="image two" /></li>
+      <li><img src="/img3.jpg" alt="image three" /></li>
+      <li><img src="/img4.jpg" alt="image four" /></li>
+    </ul>
   </div>
-  <div style="text-align:center">
-    <!-- Customized radio buttons -->
-    <label for="radio1" class="custom-radio"></label>
-    <input type="radio" name="radio-btn" id="radio1" class="radio-btn" >
-    
-    <label for="radio2" class="custom-radio"></label>
-    <input type="radio" name="radio-btn" id="radio2" class="radio-btn">
-    
-    <label for="radio3" class="custom-radio"></label>
-    <input type="radio" name="radio-btn" id="radio3" class="radio-btn">
-    
-    <label for="radio4" class="custom-radio"></label>
-    <input type="radio" name="radio-btn" id="radio4" class="radio-btn">
+
+  <div class="pagination-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
   </div>
 
   <script>
-    var myIndex = 0;
-    carousel();
+    let currentSlide = 0;
 
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+    function startSlider() {
+      let imageCount = document.querySelectorAll("img");
+      let images = document.querySelector("ul");
+
+      if (imageCount.length === 0) {
+        imageCount = document.querySelectorAll("img");
+        images.style.transform = `translateX(0px)`;
+        return;
       }
-      myIndex++;
-      if (myIndex > x.length) {
-        myIndex = 1
+
+      images.style.transform = `translateX(-${currentSlide * 550}px)`;
+
+      // Remove the active class from all dots
+      let dots = document.querySelectorAll(".dot");
+      dots.forEach((dot) => {
+        dot.classList.remove("active");
+      });
+
+      // Add the active class to the current dot
+      dots[currentSlide].classList.add("active");
+
+      if (currentSlide === imageCount.length - 1) {
+        currentSlide = 0;
+      } else {
+        currentSlide++;
       }
-      x[myIndex - 1].style.display = "block";
-      setTimeout(carousel, 2000); // Change image every 2 seconds
     }
-    let counter = 1;
-    setInterval(function () {
-      let slideBtn = document.getElementById("radio" + counter);
-      //   Checks the checkbox
-      slideBtn.checked = true;
-      counter++;
-      if (counter > 4) {
-        counter = 1;
-      }
-    }, 2000);
 
+    setInterval(() => {
+      startSlider();
+    }, 3000);
   </script>
-
 </body>
-
 </html>
