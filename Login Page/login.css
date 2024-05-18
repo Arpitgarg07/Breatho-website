@@ -109,6 +109,11 @@ h1{
     text-decoration: none;
 }
 
+#login:hover {
+    transform: scale(1.01); /* Increase scale on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add shadow on hover */
+}
+
 .txt_1 {
     position: relative;
     text-align: center;

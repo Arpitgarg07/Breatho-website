@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    
 }
 
 body {
@@ -221,6 +222,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* .nav_elements_sider a {
+    text-decoration: none;
+    color: #ffff;
+} */
+
 .signin {
     position: absolute;
     right: 125px;
@@ -232,6 +238,14 @@ body {
     position: absolute;
     right: 30px;
     top: 17px; 
+}
+.signin a {
+  text-decoration: none;
+  color: #101F24;
+}
+.signup a {
+  text-decoration: none;
+  color: #ffff;
 }
 
 @media (max-width: 1200px) {
@@ -709,3 +723,150 @@ display: none;
   .button-82-pushable:focus:not(:focus-visible) {
     outline: none;
   }
+
+
+/* commit page started */
+
+.commitment {
+  margin-top: -20px;
+}
+
+.cont_1 {
+    position: relative;
+    font-family: 'Dm sans';
+    top: 1400px;
+    margin-left: 100px;
+}
+.cont_1 h1 {
+  font-size: xxx-large;
+}
+.cont_2 {
+  position: relative;
+  font-family: 'Dm sans';
+  font-size: 175%;
+  top: 1450px;
+  margin-left: 100px;
+}
+.cont_3 {
+    position: relative;
+    scale: 100%;
+    font-family: 'Dm sans';
+    top: 955px;
+    margin-left: 1010px;
+}
+.cont_1 u {
+  font-weight: bold;
+}
+
+.un_2 {
+  text-decoration: none; /* Remove default underline */
+  position: relative;
+}
+
+.un_2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px; /* Extend the line 2px below the text */
+  width: 100%;
+  height: 3px;
+  background-color: #8DC63F; /* Change color as needed */
+}
+
+.cont_box1 {
+  position: relative;
+  left: -955px;
+  scale: 80%;
+  order: 2;               /* Place the image container second */
+  z-index: 1;  
+}
+
+.cont_box2 {
+  order: 1;               /* Place the box container first */
+  position: relative;
+  z-index: 2;             /* Higher z-index to appear above */
+  width: 100%;
+
+}
+
+.cont_box1_1 {
+  margin-left: -780px;
+  margin-top: -300px;
+  height: 550px;
+  width: 1100px;
+  background-color: #ffffff;
+  border: #000 1px solid;
+}
+.head1 {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: 'dm sans';
+}
+
+.head2 {
+  color: #00000083;
+  font-family: 'dm sans';
+  font-size: large;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.cont_table {
+  display: flex;
+}
+
+.cont_tab1 {
+  display: flex;
+  border: #0000008f solid 2px;
+  width: 320px;
+  height: 350px;
+  margin-left: 40px;
+}
+.cont_tab2 {
+  display: flex;
+  border: #0000008f solid 2px;
+  width: 320px;
+  height: 350px;
+  margin-left: 0px;
+  border-left: none;
+  border-right: none;
+}
+.cont_tab3 {
+  display: flex;
+  border: #000000eb solid 3px;
+  width: 370px;
+  height: 350px;
+  margin-left: 0px;
+}
+.cont_tab1_img {
+  position: relative;
+  scale: 40%;
+  margin-left: -15px;
+}
+.cont_tab2_img {
+  position: relative;
+  scale: 40%;
+  margin-left: -30px;
+  margin-top: -50px;
+}
+.cont_tab3_img {
+  position: relative;
+  scale: 40%;
+  margin-left: -100px;
+  margin-top: -90px;
+}
+
+.cont_tab3_txt {
+  color: #0000008f;
+  width: auto;
+  margin-top: 210px;
+  margin-left: -305px;
+}
+
+#sustain-but {
+  position: relative;
+  height: 35px;
+  right: 256px;
+  top: 290px;
+  
+}
