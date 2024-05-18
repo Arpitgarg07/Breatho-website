@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F6F4F1;
+
+}
+
+#nav_bar {
+    position: sticky;
+    background-color: #ffff;
+    height: 70px;
+    width: auto;
+    position: sticky;
+    z-index: 999;
+
+}
+
+.container1 {
+    position: absolute;
+    scale: 15%;
+    left: -208px;
+    top: -215px;
+}
+
+/** nav end  */
+
+.main_box {
+    position: fixed;
+}
+
+.box1 {
+    background-color: #CACACA;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 660px;
+    width: 550px;
+}
+
+.img1 {
+    position: relative;
+    height: auto;
+    scale: 115%;
+    width: auto;
+    left: 85px;
+    bottom: -120px;
+}
+
+
+h1{
+    position: relative;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: 'Dm sans';
+    width: max-content;
+    bottom: 600px;
+    left: 148%;
+
+
+}
+
+.form-control {
+    background-color: #CACACA;
+}
+
+.form-floating {
+    display: flexbox;
+    position: relative;
+    width: 280px;
+}
+
+
+#floatingInput, #floatingPassword {
+    border-radius: 10px;
+    background-color: #E3E3E3;
+}
+
+#form_lastname {
+    position: relative;
+    left: 300px;
+    bottom: 75px;
+}
+#form_size {
+    width: 106%;
+    position: relative;
+    bottom: 75px;
+}
+
+.form {
+    position: relative;
+    left: 138%;
+    bottom: 460px;
+    
+}
+
+#login {
+    font-size: 22px;
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    left: 138%;
+    bottom: 460px;
+    color: white;
+    background-color: #253439;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.txt_1 {
+    position: relative;
+    text-align: center;
+    color: #253439;
+    font-family: 'Dm sans';
+    font-size: large;
+    left: 138%;
+    bottom: 390px;
+}
