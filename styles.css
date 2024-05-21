@@ -75,7 +75,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 180px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -83,7 +83,7 @@ body {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: flex;
 }
 
 /* Change color of dropdown links on hover */
@@ -93,7 +93,8 @@ body {
 
 /* Show the dropdown menu on hover */
 .features:hover .dropdown-ele_2 {
-    display: block;
+    display: flex;
+    left: -52px;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -414,11 +415,15 @@ display: none;
     margin-top: 1px;
     padding-left: 9px;
     padding-right: 9px;
-    width: 95px;
+    width: 129px;
     font-weight: bold;
     font-size: 20px;
     background-color: #fff;
     color: #101F24;
+  }
+
+  .card-title2 {
+    width: 160px;
   }
 
   #card1,
