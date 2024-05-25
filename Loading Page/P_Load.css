@@ -29,3 +29,12 @@ svg {
       transform: scale(1);
     }
   }
+
+  /* .txt {
+    position: absolute;
+    font-family: 'Dm sans';
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    color: #7EC242;
+  } */
