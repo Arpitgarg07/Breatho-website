@@ -16,7 +16,9 @@ Our project is dedicated to developing a website that fosters self-sustainabilit
 3. Real-Time Environmental Monitoring :- Implementing hardware sensors for real-time monitoring of environmental factors like air quality and temperature.
 4. Integration of Environmental factors :- Enhancing sustainability assessments by integrating temperature changes into our analysis.
 5. Green Infrastructure Mapping :- Offering green infrastructure mapping services to optimize environmental management strategies.
+
 #Idea:
+
 - Recognizing Environmental Challenges: Acknowledged climate change and resource depletion as urgent issues.
 - Identifying Platform Gap: Observed a need for centralized platforms addressing sustainability complexities.
 - Inspired by Tech's Potential: Inspired to leverage technology for positive environmental impact and societal change.
