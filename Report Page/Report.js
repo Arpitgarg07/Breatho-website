@@ -60,9 +60,9 @@ function sliceSize(dataNum, dataTotal, percentage) {
       }
       return a;
   }
-  
+  d=document.getElementById("answer5").value;
   function createPieCharts() {
-    createPie('.pieID--sustainability', 65); // You can change the percentage of additive here
+    createPie('.pieID--sustainability', d); // You can change the percentage of additive here
   }
   
   createPieCharts();
