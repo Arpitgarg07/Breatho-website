@@ -17,17 +17,20 @@ Our project is dedicated to developing a website that fosters self-sustainabilit
 4. Integration of Environmental factors :- Enhancing sustainability assessments by integrating temperature changes into our analysis.
 5. Green Infrastructure Mapping :- Offering green infrastructure mapping services to optimize environmental management strategies.
 #Idea:
-- **Recognizing Environmental Challenges:** Acknowledged climate change and resource depletion as urgent issues.
-- **Identifying Platform Gap:** Observed a need for centralized platforms addressing sustainability complexities.
-- **Inspired by Tech's Potential:** Inspired to leverage technology for positive environmental impact and societal change.
-- **Vision for Breatho:** Envisioned Breatho as a comprehensive solution empowering users for sustainable actions.
-- **Mission for Change:** Came together to develop Breatho as a catalyst for environmental stewardship and collective action.
+- Recognizing Environmental Challenges: Acknowledged climate change and resource depletion as urgent issues.
+- Identifying Platform Gap: Observed a need for centralized platforms addressing sustainability complexities.
+- Inspired by Tech's Potential: Inspired to leverage technology for positive environmental impact and societal change.
+- Vision for Breatho: Envisioned Breatho as a comprehensive solution empowering users for sustainable actions.
+- Mission for Change: Came together to develop Breatho as a catalyst for environmental stewardship and collective action.
+
 #Approach:
+
 Data Collection: Users input campus data including population size, green space area, and vegetation coverage.
 Calculation: Breatho calculates the campus's oxygen production and consumption based on the input data.
 Recommendations: Generate comprehensive sustainability reports with personalized recommendations for enhancing the campus's self-sufficiency.
-Implementation:
+
 #Techstack
+
 Languages: Developed using HTML, CSS, and JavaScript for front-end functionality.
 Framework: Utilized Bootstrap CSS framework for responsive and visually appealing design.
 Version Control: Managed codebase using Git, with hosting and collaboration facilitated through GitHub.
