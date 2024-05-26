@@ -105,7 +105,74 @@ body {
     margin-left: 40px;
     height: 270px;
     width: 450px;
-    background-color: #101F24;
+
+    .graph {        
+      height: 250px;
+      width: 143%;
+      margin: 0 auto 200px;
+      border: none;
+      /* border: 1px solid rgba(0, 0, 0, 0); */
+      margin-left: -98px;
+      outline: 1px solid #eee;
+      text-align: center;
+      font-size: 0;
+    }
+    
+    .graph:after {
+      height: 100%;
+      content: '';
+      display: inline-block;
+      width: 0;
+    }
+    
+    .bar {
+      font-size: 18px;
+      display: inline-block;
+      vertical-align: bottom;
+      text-align: center;
+      padding: .5em 0 0;
+      color: #fff;
+      margin: 0 .5%;
+      position: relative;
+    }
+    
+    .bar:nth-child(1) {
+      background: #1f77b4;
+    }
+    
+    .bar:nth-child(2) {
+      background: #ff7f0e;
+    }
+    
+    .bar:nth-child(3) {
+      background: #2ca02c;
+    }
+    
+    .bar:nth-child(4) {
+      background: #d62728;
+    }
+    
+    .bar:nth-child(5) {
+      background: #9467bd;
+    }
+    
+    .bar:nth-child(6) {
+      background: #8c564b;
+    }
+    
+    .bar:nth-child(7) {
+      background: #e377c2;
+    }
+    
+    .bar p {
+      position: relative;
+      top: 101%;
+      width: 100%;
+      margin: 0;
+      color: #888;
+      font-size: .8em;
+    }
+    
 }
 .pi-chart {
     margin-left: 40px;

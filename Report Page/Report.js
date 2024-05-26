@@ -67,3 +67,25 @@ function sliceSize(dataNum, dataTotal, percentage) {
   
   createPieCharts();
   
+
+
+
+
+  $(document).ready(function() {
+    var labels = ["TreeXL", "TreeL", "TreeM", "TreeS", "PlantL", "PlantM", "Grass"];
+    var values = [500, 1000, 600, 50, 70, 750, 300];
+  
+    var max = Math.max(...values);
+  
+    // Create bars dynamically
+    for (var i = 0; i < labels.length; i++) {
+      var barHeight = (100 * values[i] / max).toFixed(2) + '%';
+      var barWidth = ((100 / labels.length - 1) * 0.5).toFixed(2) + '%'; // Decrease width to half
+      var barHtml = `
+        <div class="bar" data-h="${values[i]}" style="height: ${barHeight}; width: ${barWidth};">
+          ${values[i]} <p>${labels[i]}</p>
+        </div>`;
+      $('.graph').append(barHtml);
+    }
+  });
+  
