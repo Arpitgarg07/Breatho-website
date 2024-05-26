@@ -167,26 +167,3 @@ iframe{
     margin-right: 90px;
     
 }
-.report-txt p {
-    margin-top: 30px;
-    font-size: large;
-    font-family: 'Dm sans';
-    text-align: left;
-    width: fit-content;
-}
-.report-txt h3 {
-    margin-top: 70px;
-    font-family: 'Dm sans';
-    text-align: left;
-    width: fit-content;
-}
-.report-txt li {
-    font-family: 'Dm sans';
-    font-size: large;
-    margin-top: 04px;
-}
-.report-txt h3 {
-    font-family: 'Dm sans';
-    margin-left: 150px;
-
-}
