@@ -1,0 +1,231 @@
+
+body{
+  overflow: hidden;
+}
+.logo {
+  position: relative;
+  margin-left: -10px;
+  margin-top: -8px;
+}
+  .border{
+    border-top-style: solid;
+    border-width: 2px;
+    margin-top: -15px;
+    margin-left: 67px;
+    border-color: #D6D6D6;
+  }
+.back {
+  position: relative;
+  margin-left: 95px; /* Adjusted margin */
+  margin-top: -224px;
+  padding: -30px;
+  padding-bottom: 30px;
+}
+.back a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: 'Dm sans';
+}
+.user {
+  position: absolute;
+  color: blueviolet;
+  margin-left: 1300px;
+  margin-top: -60px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: -163px;
+  margin-top: -236px;
+}
+
+.navbar ul {
+  position: relative;
+  list-style: none;
+  margin-top: 220px;
+  margin-left: 130px;
+  background-color: black;
+  height: 765px;
+  width: 60px;
+}
+
+.navbar ul li {
+  position: relative;
+  color: white;
+  margin-top: 45px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+  border-left: 3px solid transparent;
+  margin-top: 20px;
+  padding:10px; /* Consolidated padding */
+  display: block;
+}
+
+.navbar ul li a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+  border-left-color: yellowgreen;
+}
+.fa-house,
+.fa-tree,
+.fa-users-gear,
+.fa-gear,
+.fa-bell {
+  color: white;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-top: -30px;
+  padding: -30px;
+  top: 100px;
+}
+
+.tooltip .tooltiptext 
+{
+  visibility: hidden;
+  width: 120px;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 5px;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-color: black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.navbar1 {
+  background-color: #f6f4f1;
+  width: 1445px;
+  margin-top: -654px;
+  margin-left: 65px;
+  height: 620px;
+  padding: 20px;
+}
+.navbar1 ul {
+  list-style: none;
+  padding: 0px;
+}
+.navbar1 ul li {
+  position: relative;
+  margin-top: -20px;
+  left: 60px;
+  font-size: 30px;
+  font-family: 'Dm sans';
+  top: 70px;
+}
+.navbar1 ul li a {
+  text-decoration: none;
+  color: black;
+  border-left: 5px solid transparent;
+}
+
+.navbar1 ul li {
+  padding: 22px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.navbar1 ul li a:hover {
+  border-left-color: greenyellow;
+}
+p {
+  position: relative;
+  margin-left: 120px;
+  margin-top: -737px;
+  font-size: 35px;
+  font-family: 'Dm sans';
+}
+.campusinfo {
+  border: 2px solid #D6D6D6; /* Adjust border width and color */
+  background-color: white;
+  margin-top: 60px;
+  margin-left: 450px;
+  height: 577px;
+  border-radius: 30px;
+  font-family: 'Dm sans';
+}
+
+.campusinfo h1 {
+  padding: 10px;
+  position:relative;
+  margin-left: 20px;
+ margin-top: 0px;
+}
+.campusinfo h5 {
+  border-bottom-style: solid;
+  border-color: #B29E84;
+  border-width: 1px;
+  margin-top: -37px;
+  margin-left: -1px;
+  padding: 10px;
+}
+
+h5 {
+  margin-left: 125px;
+  margin-top: -36px;
+  font-family: 'Dm sans';
+}
+
+.form-container {
+  width: 500px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  margin-top: -550px;
+  margin-left: 600px;
+}
+.form {
+  border-radius: 100px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 15px;
+  padding: 20px;
+  margin-top: 360px;
+  z-index: 1;
+  position: absolute;
+  
+}
+.form p {
+  margin-top: -150px;
+  margin-left: -163px;
+  font-size: 20px;
+  font-family: 'Dm sans';
+}
+.next {
+  margin-top: 550px;
+  margin-left: 1300px;
+  background-color: rgb(43, 42, 42);
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.next a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Dm sans';
+}
+.input {
+  margin-left: 20px;
+  border-radius: 9px;
+  width: 300px;
+  height: 25px;
+}
+

@@ -1,0 +1,281 @@
+body{
+    overflow: hidden;
+  }
+  .logo {
+    position: relative;
+    margin-left: -10px;
+    margin-top: -8px;
+  }
+  .border{
+    border-top-style: solid;
+    border-width: 2px;
+    margin-top: -15px;
+    margin-left: 67px;
+    border-color: #D6D6D6;
+  }
+  .back {
+    position: relative;
+    margin-left: 95px; 
+    margin-top: -224px;
+    padding: -30px;
+    padding-bottom: 30px;
+  }
+  .back a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Dm sans';
+  }
+  .user {
+    position: absolute;
+    color: blueviolet;
+    margin-left: 1300px;
+    margin-top: -60px;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-left: -163px;
+    margin-top: -236px;
+  }
+  
+  .navbar ul {
+    position: relative;
+    list-style: none;
+    margin-top: 220px;
+    margin-left: 130px;
+    background-color: black;
+    height: 765px;
+    width: 60px;
+  }
+  
+  .navbar ul li {
+    position: relative;
+    color: white;
+    margin-top: 45px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+    border-left: 3px solid transparent;
+    margin-top: 20px;
+    padding:10px;
+    display: block;
+  }
+  
+  .navbar ul li a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+    border-left-color: yellowgreen;
+  }
+  .fa-house,
+  .fa-tree,
+  .fa-users-gear,
+  .fa-gear,
+  .fa-bell {
+    color: white;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    margin-top: -20px;
+  }
+  .navbar1 {
+    background-color: #f6f4f1;
+    width: 1445px;
+    margin-top: -654px;
+    margin-left: 65px;
+    height: 620px;
+    padding: 20px;
+  }
+  .navbar1 ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .navbar1 ul li {
+    position: relative;
+    margin-top: -20px;
+    left: 60px;
+    font-size: 30px;
+    font-family: 'Dm sans';
+    top: 70px;
+  }
+  .navbar1 ul li a {
+    text-decoration: none;
+    color: black;
+    border-left: 5px solid transparent;
+  }
+  
+  .navbar1 ul li {
+    padding: 22px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .navbar1 ul li a:hover {
+    border-left-color: greenyellow;
+  }
+  p {
+    position: relative;
+    margin-left: 120px;
+    margin-top: -737px;
+    font-size: 35px;
+    font-family: 'Dm sans';
+  }
+  .campusinfo {
+    border: 2px solid #D6D6D6; /* Adjust border width and color */
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 450px;
+    height: 577px;
+    border-radius: 30px;
+    font-family: 'Dm sans';
+  }
+  
+  .campusinfo h1 {
+    border-bottom-style: solid;
+    border-color:#D6D6D6;
+    border-width: 2px;
+    padding: 10px;
+    position:relative;
+    margin-left: 0px;
+   margin-top: 0px;
+  }
+  .campusinfo h5 {
+    margin-top: -37px;
+    margin-left: -1px;
+    padding: 10px;
+  }
+  
+  h5 {
+    margin-left: 125px;
+    margin-top: -36px;
+    font-family: 'Dm sans';
+  }
+  /* Vertical navigation bar hover effect */
+  .tree:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    width: 200px;
+    background-color:white;
+    color:black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Group1 tooltip hover effect */
+  .group1:hover .tooltiptext {
+    visibility: hidden;
+    opacity: 1;
+    background-color: white;
+    margin-left: 80px;
+    color: black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    margin-left: 160px;
+    top: -36px;
+    height: 165px;
+    background-color: transparent;
+    color:black;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* CSS to align groups properly */
+.tree1 {
+  margin-top: -15px; /* Adjust margin-top for the first group */
+}
+
+/* Align Group 2 and Group 3 */
+.tree2 {
+  position: relative;
+  margin-top: 10px; /* Remove top margin */
+}
+.tree3 {
+  position: relative;
+  margin-top: 40px; /* Adjust margin-top */
+}
+.tree4 {
+  position: relative;
+  margin-top: 70px; /* Adjust margin-top */
+}
+.form-container {
+  width: 500px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  margin-top: -550px;
+  margin-left: 600px;
+}
+.form {
+  border-radius: 10px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 615px;
+  margin-left: -150px;
+  padding: 20px;
+  z-index: 1;
+  position: absolute;
+  
+}
+.form p {
+  margin-top: -150px;
+  margin-left: -163px;
+  font-size: 20px;
+  font-family: 'Dm sans';
+}
+.next {
+  margin-top: 177px;
+  margin-left: 50px;
+  background-color: #8DC63F;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+  border: none;
+}
+.next a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Dm sans';
+}
+
+
+
