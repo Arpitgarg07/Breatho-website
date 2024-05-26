@@ -1,0 +1,192 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    background-color: #F6F4F1;
+}
+
+#nav_bar {
+    position: fixed;
+    background-color: #ffff;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1536px;
+    z-index: 998;
+}
+
+#nav_hor {
+    position: fixed;
+    background-color: #1A1A1A;
+    height: 847px;
+    width: 85px;
+    margin-top: -70px;
+    z-index: 999;
+}
+#bell1 {
+    margin-left: 10%;
+}
+
+.container1 {
+    position: absolute;
+    scale: 15%;
+    left: -208px;
+    top: -147px;
+}
+
+.pro-img {
+    position: absolute;
+    right: -110px;
+    top: -215px; 
+    scale: 8%;
+    z-index: 1;
+}
+
+.pro-txt {
+    font-family: 'Dm sans';
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 25px;
+    top: 25px; 
+}
+.pro-img a {
+  text-decoration: none;
+  color: #101F24;
+}
+.pro-txt a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.icon {
+    line-height: 220%;
+    padding: 20px;
+    margin-top: 260%;
+    scale: 150%;
+    width: 8px;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
+
+/** nav end  */
+
+.Report {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 186px;
+    height: 650px;
+    width: 1333px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: #ffffff;
+}
+
+.back {
+    color: black;
+    font-family: 'Dm sans';
+    font-weight: bolder;
+    font-size: large;
+    position: fixed;
+    top: 85px;
+    left: 100px;
+}
+
+.head-tittle {
+    font-family: 'Dm sans';
+    margin-top: 20px;
+}
+.pi-graph {
+    margin-left: 40px;
+    height: 270px;
+    width: 450px;
+    background-color: #101F24;
+}
+.y-video {
+    border-radius: 20px;
+    margin-left: 40px;
+    height: 270px;
+    width: 450px;
+    background-color: #101F24;
+}
+h1 {
+    font-family: 'Dm sans';
+    margin-left: 40px;
+}
+
+hr {
+    margin-top: 20px;
+    color: black;
+    border: 2px solid;
+}
+.green_infra, #Rain_water, #Solar_ene, #Waste_red{
+    display: none;
+}
+.y-video{
+    display: inline-block;
+}
+iframe{
+    border-radius: 20px;
+}
+.y-video-but {
+    font-family: 'Dm sans';
+    margin-left: 40px;
+    margin-top: 57px;
+    font-size: large;
+}
+.y-video-but button {
+    color: #000000b3;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.y-video-but button:hover {
+    color: #000;
+    border: none;
+}
+.ai_sol {
+    height: 446px;
+    width: 769px;
+    background-color: #464646;
+    border-radius: 20px;
+}
+.report-txt {
+    margin-top: -500px;
+    margin-left: 540px;
+ 
+}
+.report-txt h2 {
+    font-size: xxx-larger;
+    font-family: 'Dm sans';
+    font-weight: bold;
+    text-align: left;
+    margin-right: 90px;
+    
+}
+.report-txt p {
+    margin-top: 30px;
+    font-size: large;
+    font-family: 'Dm sans';
+    text-align: left;
+    width: fit-content;
+}
+.report-txt h3 {
+    margin-top: 70px;
+    font-family: 'Dm sans';
+    text-align: left;
+    width: fit-content;
+}
+.report-txt li {
+    font-family: 'Dm sans';
+    font-size: large;
+    margin-top: 04px;
+}
+.report-txt h3 {
+    font-family: 'Dm sans';
+    margin-left: 150px;
+
+}
