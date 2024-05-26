@@ -25,7 +25,7 @@ Our project is dedicated to developing a website that fosters self-sustainabilit
 
 #Approach:
 
-Data Collection: Users input campus data including population size, green space area, and vegetation coverage.
+Data Collection: Users input campus data including population size, green space area, and vegetation coverage
 Calculation: Breatho calculates the campus's oxygen production and consumption based on the input data.
 Recommendations: Generate comprehensive sustainability reports with personalized recommendations for enhancing the campus's self-sufficiency.
 
