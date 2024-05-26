@@ -303,7 +303,7 @@ p {
 }
 
 .verticalLine {
-    margin-left: 670px;
+    margin-left: 580px;
     margin-top: -525px;
     height: 580px;
     border-left:solid;
@@ -312,16 +312,28 @@ p {
   }
   .grass{
     margin-top:-577px;
-    margin-left: 680px;
+    margin-left: 580px;
   }
   
 .form-container {
-    width: 500px;
+    width: 100px;
     border-radius: 20px;
     box-sizing: border-box;
     padding: 20px 30px;
     margin-top: -550px;
     margin-left: 600px;
+  }
+  .form_g {
+    border-radius: 10px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 615px;
+    margin-left: -150px;
+    padding: 20px;
+    z-index: 1;
+    position: absolute;
   }
   .form {
     border-radius: 10px;
@@ -342,5 +354,17 @@ p {
     font-size: 20px;
     font-family: 'Dm sans';
   }
+  .form_g p {
+    margin-top: -95px;
+    margin-left: -474px;
+    font-size: 20px;
+    font-family: 'Dm sans';
+  }
+  .input {
+    margin-left: 20px;
+    border-radius: 9px;
+    width: 100px; /* Adjust the width as needed */
+    height: 25px;
+}
   
   
